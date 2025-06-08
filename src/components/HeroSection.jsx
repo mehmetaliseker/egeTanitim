@@ -69,7 +69,9 @@ function HeroSection() {
           Ulusal ve uluslararası düzeyde yürütülen bilimsel projeleri, 
           Erasmus gibi değişim programlarıyla dünya üniversiteleriyle kurduğu iş birlikleri ve alanında uzman akademik kadrosu sayesinde, 
           Ege Üniversitesi öğrencilerini yalnızca bugüne değil, geleceğe de hazırlar. <br />
-          <a href="https://ege.edu.tr/tr-0/anasayfa.html" target="_blank"><button className="bg-[#5e97bd] border-none rounded-[5px] p-[10px] cursor-pointer text-[whitesmoke]">Daha Fazlası...</button></a>
+          <a href="https://ege.edu.tr/tr-0/anasayfa.html" target="_blank">
+            <button className="bg-blue-600 border-none rounded-[5px] p-[10px] cursor-pointer text-[whitesmoke]">Daha Fazlası...</button>
+          </a>
         </p>
         
       </div>      
