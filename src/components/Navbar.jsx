@@ -18,18 +18,15 @@ function Navbar() {
     <>
       <div className="fixed top-0 left-0 w-screen h-[75px] bg-[#2A3C7F] flex items-center z-30">
         {/* Side menu */}
-        <div className={`w-1/4 h-screen bg-[#2A3C7F] absolute top-[75px] left-0 z-10 
+        <div className={`w-1/5 h-screen bg-[#2A3C7F] absolute top-[75px] left-0 z-10 
           transition-transform duration-300 ease-in-out transform rounded-br-lg
           ${is_menu_clicked ? 'translate-x-0' : '-translate-x-full'}`}>
 
           {menuItems.map((item, index) => (
-            <Link
-              key={index}
-              to={item.path}
-              className="no-underline text-[rgba(70,70,70,0.8)]"
-            >
-              <h3 className="text-[whitesmoke] p-4 text-center text-[1.2em] m-[10px] rounded-[10px] transition duration-300 z-10  hover:scale-[1.02] hover:cursor-pointer hover:drop-shadow-[5px_5px_10px_grey]">
+            <Link key={index} to={item.path} className="no-underline">
+              <h3 className="relative group text-[whitesmoke] p-4 text-center text-xl m-[20px] transition duration-300 hover:scale-[1.02] hover:cursor-pointer leading-tight">
                 {item.label}
+                <span className="absolute left-1/2 bottom-2 w-0 h-[2px] bg-white transition-all duration-300 ease-in-out group-hover:w-2/3 group-hover:left-1/6"></span>
               </h3>
             </Link>
           ))}
@@ -43,7 +40,7 @@ function Navbar() {
             <div className={`absolute top-1/2 left-0 w-full h-[0.3em] bg-white rounded transition-all duration-500 ${is_menu_clicked ? '-rotate-45' : 'translate-y-3'}`} />
           </div>
 
-          <h1 className='text-2xl italic text-white font-[500]'>EGE ÜNİVERSİTESİ</h1>
+          <h1 className='text-2xl italic text-white font-[600]'>EGE ÜNİVERSİTESİ</h1>
 
           <a href="https://www.ege.edu.tr/" target='_blank' className='flex items-center justify-center'>
             <img src="../public/ege.png" alt="Ege Üniversitesi Logo" className="w-[75px] h-[75px] hover:shadow-2xl rounded-full hover:scale-[1.01] cursor-pointer transition-all duration-300" />

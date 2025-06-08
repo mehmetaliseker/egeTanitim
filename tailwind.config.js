@@ -2,6 +2,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+      },
       animation: {
         fadeIn: "fadeIn 0.3s ease-out forwards",
         fadeOut: "fadeOut 0.3s ease-in forwards",

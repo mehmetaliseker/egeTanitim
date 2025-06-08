@@ -58,8 +58,8 @@ function HeroSection() {
         </Slider>
       </div>
       <div className="m-[3em_6em_5em_6em] drop-shadow-[7px_7px_5px_grey] rounded-[20px] cursor-default text-[rgba(25,25,25,0.9)]">
-        <h2 className='text-center text-gray-700 italic bold font-2xl text-2xl'>Genel Tanıtım</h2>
-        <p>
+        <h2 className="text-center text-gray-800 italic font-semibold text-2xl mb-4">Genel Tanıtım</h2>
+        <p className="text-sm leading-relaxed text-gray-700 tracking-wide text-justify">
           Ege Üniversitesi, 1955 yılında Türkiye'nin batısında, güzellikleriyle ünlü İzmir şehrinde kurulmuş, köklü bir devlet üniversitesidir. 
           Eğitimde kaliteyi, araştırmada yeniliği ve topluma hizmeti ilke edinmiş olan üniversitemiz, her yıl binlerce öğrenciye ev sahipliği yapmaktadır.
           Doğayla iç içe, geniş ve modern kampüsü; çağdaş eğitim olanakları; aktif öğrenci kulüpleri ve sosyal etkinlikleriyle Ege Üniversitesi, 
@@ -70,7 +70,7 @@ function HeroSection() {
           Erasmus gibi değişim programlarıyla dünya üniversiteleriyle kurduğu iş birlikleri ve alanında uzman akademik kadrosu sayesinde, 
           Ege Üniversitesi öğrencilerini yalnızca bugüne değil, geleceğe de hazırlar. <br />
           <a href="https://ege.edu.tr/tr-0/anasayfa.html" target="_blank">
-            <button className="bg-blue-600 border-none rounded-[5px] p-[10px] cursor-pointer text-[whitesmoke]">Daha Fazlası...</button>
+            <button className="bg-blue-600 text-sm border-none rounded-[5px] px-[14px] py-[8px] text-white hover:bg-blue-700 transition">Daha Fazlası...</button>
           </a>
         </p>
         
