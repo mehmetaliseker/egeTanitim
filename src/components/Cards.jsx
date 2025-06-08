@@ -91,7 +91,7 @@ function Cards() {
           className={`bg-white rounded-xl p-6  w-125 mx-auto  relative transition-all duration-500 ease-out ${
             isClosing ? "animate-fadeOut" : "animate-fadeIn"
           }`}
-          overlayClassName="fixed inset-0 bg-black !bg-opacity-10 flex justify-center items-center z-50"
+          overlayClassName="fixed inset-0 bg-black bg-opacity-10 flex justify-center items-center z-50"
           closeTimeoutMS={300}
         >
           {selectedCard && (
