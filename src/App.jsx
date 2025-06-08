@@ -25,6 +25,7 @@ import Myo from './pages/Myo';
 import Fakulte from './pages/Fakulte';
 import Bolum from './pages/Bolum';
 
+
 function App() {
   return (
     <Routes>

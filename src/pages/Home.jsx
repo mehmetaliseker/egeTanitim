@@ -7,28 +7,37 @@ import Tarihce from '../components/Tarihce';
 import Istatistik from '../components/Istatistik';
 import Footer from '../components/Footer';
 import EgeLogo from '../components/EgeLogo';
+import AnimatedSection from '../components/AnimatedSection'; 
+
 
 function Home() {
   return (
     <>
       <EgeLogo />
-
       <Navbar />
-
       <HeroSection />
 
-      <SecondSection />
+      <AnimatedSection>
+        <SecondSection />
+      </AnimatedSection>
 
-      <AboutUs />
+      <AnimatedSection>
+        <AboutUs />
+      </AnimatedSection>
 
-      <Cards />
+      <AnimatedSection>
+        <Cards />
+      </AnimatedSection>
 
-      <Tarihce />
+      <AnimatedSection>
+        <Tarihce />
+      </AnimatedSection>
 
-      <Istatistik />
-      
+      <AnimatedSection>
+        <Istatistik />
+      </AnimatedSection>
+
       <Footer />
-      
     </>
   );
 }

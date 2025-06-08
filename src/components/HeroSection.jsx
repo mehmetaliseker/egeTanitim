@@ -39,12 +39,11 @@ function HeroSection() {
     "../public/egeMainSlider5.jpg",
     "../public/egeMainSlider3.jpg",
     "../public/egeMainSlider2.jpg",
-    "../public/egeMainSlider2.jpg",
   ];
 
   return (
     <>
-    <div className="mt-[100px] ">
+    <div className="mt-[75px] ">
       <div style={{ width: "100%", position: "relative",}} className='sliderBackground'>
         <Slider {...settings}>
           {images.map((src, index) => (
@@ -58,7 +57,7 @@ function HeroSection() {
           ))}
         </Slider>
       </div>
-      <div className="m-[3em_2em_5em_2em] drop-shadow-[7px_7px_5px_grey] rounded-[20px] cursor-default text-[rgba(25,25,25,0.9)]">
+      <div className="m-[3em_6em_5em_6em] drop-shadow-[7px_7px_5px_grey] rounded-[20px] cursor-default text-[rgba(25,25,25,0.9)]">
         <h2 className='text-center text-gray-700 italic bold font-2xl text-2xl'>Genel Tanıtım</h2>
         <p>
           Ege Üniversitesi, 1955 yılında Türkiye'nin batısında, güzellikleriyle ünlü İzmir şehrinde kurulmuş, köklü bir devlet üniversitesidir. 
