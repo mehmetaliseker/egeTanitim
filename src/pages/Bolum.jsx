@@ -7,26 +7,42 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 function Bolum() {
-  const kategoriler = {
-    "Mühendislik": [
-      { name: "Bilgisayar Mühendisliği", desc: "Yapay zeka, yazılım, donanım alanlarında eğitim verir." },
-      { name: "Elektrik-Elektronik Mühendisliği", desc: "Enerji, elektronik sistemler üzerine uzmanlaşır." },
-      { name: "Makine Mühendisliği", desc: "Makine tasarımı, üretimi ve bakımı alanında eğitim verir." }
-    ],
-    "Sağlık": [
-      { name: "Hemşirelik", desc: "Sağlık sisteminde önemli rol oynayan sağlık personelini yetiştirir." },
-      { name: "Eczacılık", desc: "İlaç üretimi, kullanımı ve etkileri üzerine eğitim verir." },
-      { name: "Fizyoterapi", desc: "Hareket bozukluklarının tedavisi üzerine eğitim verir." }
-    ],
-    "İktisat ve İşletme": [
-      { name: "İktisat", desc: "Ekonomik teoriler ve uygulamalar hakkında eğitim verir." },
-      { name: "İşletme", desc: "Şirket yönetimi ve organizasyon hakkında eğitim verir." }
-    ],
-    "Fen Edebiyat": [
-      { name: "Matematik", desc: "Matematiksel teoriler ve uygulamalar öğretir." },
-      { name: "Fizik", desc: "Doğa yasalarını ve fiziksel olayları inceler." }
-    ]
-  };
+const kategoriler = {
+  "Mühendislik": [
+    { name: "Bilgisayar Mühendisliği", desc: "Yapay zeka, yazılım, donanım alanlarında eğitim verir." },
+    { name: "Elektrik-Elektronik Mühendisliği", desc: "Enerji, elektronik sistemler üzerine uzmanlaşır." },
+    { name: "Makine Mühendisliği", desc: "Makine tasarımı, üretimi ve bakımı alanında eğitim verir." },
+    { name: "İnşaat Mühendisliği", desc: "Yapıların tasarımı, inşası ve denetimi konularında eğitim verir." },
+    { name: "Gıda Mühendisliği", desc: "Gıda üretimi, güvenliği ve teknolojisi üzerine çalışır." }
+  ],
+  "Sağlık": [
+    { name: "Hemşirelik", desc: "Sağlık sisteminde önemli rol oynayan sağlık personelini yetiştirir." },
+    { name: "Eczacılık", desc: "İlaç üretimi, kullanımı ve etkileri üzerine eğitim verir." },
+    { name: "Fizyoterapi", desc: "Hareket bozukluklarının tedavisi üzerine eğitim verir." },
+    { name: "Beslenme ve Diyetetik", desc: "Sağlıklı beslenme ve diyet planlaması konularında uzman yetiştirir." },
+    { name: "Tıp", desc: "Hekimlik mesleği için teorik ve pratik eğitim verir." }
+  ],
+  "İktisat ve İşletme": [
+    { name: "İktisat", desc: "Ekonomik teoriler ve uygulamalar hakkında eğitim verir." },
+    { name: "İşletme", desc: "Şirket yönetimi ve organizasyon hakkında eğitim verir." },
+    { name: "Uluslararası İlişkiler", desc: "Küresel politika ve diplomasi üzerine çalışır." },
+    { name: "Maliye", desc: "Kamu harcamaları, bütçe ve vergi sistemleri üzerine eğitim verir." }
+  ],
+  "Fen Edebiyat": [
+    { name: "Matematik", desc: "Matematiksel teoriler ve uygulamalar öğretir." },
+    { name: "Fizik", desc: "Doğa yasalarını ve fiziksel olayları inceler." },
+    { name: "Kimya", desc: "Maddelerin yapısını, bileşimini ve tepkimelerini inceler." },
+    { name: "Biyoloji", desc: "Canlıların yapısı, işleyişi ve evrimi üzerine çalışır." },
+    { name: "Türk Dili ve Edebiyatı", desc: "Türk dili ve edebiyatı tarihi üzerine eğitim verir." }
+  ],
+  "Ziraat Fakültesi": [
+    { name: "Tarım Ekonomisi", desc: "Tarım ve ekonomi ilişkisini analiz eder." },
+    { name: "Bahçe Bitkileri", desc: "Meyve, sebze ve süs bitkileri yetiştiriciliği üzerine eğitim verir." },
+    { name: "Tarla Bitkileri", desc: "Tahıllar, baklagiller ve endüstri bitkileri konularında uzmanlık sunar." },
+    { name: "Zootekni", desc: "Hayvan yetiştiriciliği ve ıslahı konularında eğitim verir." }
+  ]
+};
+
 
   const sliderRef = useRef(null);
 
