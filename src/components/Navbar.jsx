@@ -10,8 +10,8 @@ function Navbar() {
   const menuItems = [
     { path: "/", label: "Ana Sayfa" },
     { path: "/myo", label: "MYO'lar" },
-    { path: "/fakulte", label: "Fakülteler" },
     { path: "/bolum", label: "Bölümler" },
+    { path: "/fakulte", label: "Fakülteler" }
   ];
 
   return (
@@ -35,7 +35,7 @@ function Navbar() {
           ))}
         </div>
 
-        {/* Top bar */}
+        {/* burger */}
         <div className="flex items-center justify-between w-full flex-row text-center z-[5] p-3">
           <div className="relative w-12 h-12 cursor-pointer ml-[20px]" onClick={updateMenu}>
             <div className={`absolute top-1/2 left-0 w-full h-[0.3em] bg-white rounded transition-all duration-500 ${is_menu_clicked ? 'rotate-45' : '-translate-y-3'}`} />

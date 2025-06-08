@@ -58,7 +58,7 @@ function Cards() {
 
   return (
     <>
-      <div className="w-full flex justify-center mt-10">
+      <div className="w-full flex justify-center mt-50">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
           {cards.map((card, index) => (
             <button
@@ -83,7 +83,7 @@ function Cards() {
         </div>
       </div>
 
-      {/* Modal animasyonu olmuyor */}
+      {/* Modal animasyonu olmuyor ve overlay opaklık sorunu */}
       {modalIsOpen && (
         <Modal
           isOpen={modalIsOpen}

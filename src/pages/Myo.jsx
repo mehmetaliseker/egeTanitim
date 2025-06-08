@@ -75,27 +75,27 @@ function Myo() {
     <>
       <Navbar />
 
-      <div className="mt-28 px-8">
+      <div className="mt-24 px-8">
         <h1 className="text-3xl font-bold mb-6 italic text-center">Meslek Yüksekokulları</h1>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {myos.map((myo, index) => (
-            <div 
-              key={index} 
+            <div
+              key={index}
               className="bg-white shadow-md rounded-lg border border-gray-200 overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-xl"
             >
               <div className="relative group h-60 overflow-hidden">
-                <img 
-                  src={myo.image} 
-                  alt={myo.name} 
+                <img
+                  src={myo.image}
+                  alt={myo.name}
                   className="w-full h-full object-cover transition duration-500 group-hover:blur-sm"
                 />
                 <a href={myo.link} target='_blank' >
-                <button className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
-                  <span className="bg-blue-600 text-white px-4 py-2 rounded shadow-md hover:bg-blue-700">
-                    Daha Fazlası..
-                  </span>
-                </button>
+                  <button className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                    <span className="bg-blue-600 text-white px-4 py-2 rounded shadow-md hover:bg-blue-700">
+                      Daha Fazlası..
+                    </span>
+                  </button>
                 </a>
               </div>
 

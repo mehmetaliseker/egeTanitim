@@ -14,7 +14,9 @@ function Home() {
   return (
     <>
       <EgeLogo />
+
       <Navbar />
+      
       <HeroSection />
 
       <AnimatedSection>
