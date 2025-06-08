@@ -93,7 +93,7 @@ function Myo() {
                 <a href={myo.link} target='_blank' >
                 <button className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
                   <span className="bg-blue-600 text-white px-4 py-2 rounded shadow-md hover:bg-blue-700">
-                    Daha Fazlası...
+                    Daha Fazlası..
                   </span>
                 </button>
                 </a>
