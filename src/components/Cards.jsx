@@ -7,7 +7,7 @@ Modal.setAppElement("#root");
 function Cards() {
   const cards = [
     {
-      title: "Başarılarımız",
+      title: "Başarılar ve Ödüller",
       img: "/kupa1.jpg",
       description: "Ege Üniversitesi'nin kazandığı ödüller ve başarı hikâyeleri.",
     },
@@ -53,7 +53,7 @@ function Cards() {
     setTimeout(() => {
       setModalIsOpen(false);
       setSelectedCard(null);
-    }, 300); 
+    }, 300);
   };
 
   return (
@@ -88,11 +88,12 @@ function Cards() {
         <Modal
           isOpen={modalIsOpen}
           onRequestClose={closeModal}
-          className={`bg-white rounded-xl p-6  w-125 mx-auto  relative transition-all duration-500 ease-out ${
-            isClosing ? "animate-fadeOut" : "animate-fadeIn"
-          }`}
-          overlayClassName="fixed inset-0 bg-black bg-opacity-10 flex justify-center items-center z-50"
+          className={`bg-white rounded-xl p-6 w-125 mx-auto relative transition-all duration-500 ease-out 
+              ${isClosing ? "animate-fadeOut" : "animate-fadeIn"
+            }`}
+          overlayClassName="fixed inset-0 bg-black/25 flex justify-center items-center z-50"
           closeTimeoutMS={300}
+          // style={{boxshadow:" rgba(0, 0, 0, 0.35) 0px 5px 15px;"}}
         >
           {selectedCard && (
             <>

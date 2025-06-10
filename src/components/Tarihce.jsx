@@ -11,7 +11,6 @@ function Tarihce() {
           </h1>
         </div>
       </div>
-        {/* flex justify-evenly items-center h-[22rem] w-200 mt-[200px] ise yaramadı cssten yaptim */}
         <div className="mt-[-8em] mx-[14em] mb-[5em] cursor-default text-[rgba(25,25,25,0.9)]">
         <p>
           Ege Üniversitesi, Türkiye’nin dördüncü üniversitesi olarak 20 Mayıs 1955 tarihli 9013 sayılı Resmi Gazete'de yayınlanan

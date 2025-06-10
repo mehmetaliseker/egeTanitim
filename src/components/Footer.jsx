@@ -14,7 +14,6 @@ function Footer() {
         </div>
         <div className="w-100 h-auto">
           <div className="flex gap-5 ">
-            {/* spanin tailwinid yaramiyo */}
             <span className='mt-[5px]'>Bize Ulaşın: </span>
             <a href="tel:+902323111010" target="_blank"><img src="../public/whatsapp.png"  alt=""  className="w-10 h-10 filter invert" /></a>
             <a href="https://www.instagram.com/universiteege/?hl=tr" target="_blank"><img src="../public/instagram.png" alt=""  className="w-10 h-10 filter invert" /></a>
