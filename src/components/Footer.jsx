@@ -15,10 +15,10 @@ function Footer() {
         <div className="w-100 h-auto">
           <div className="flex gap-5 ">
             <span className='mt-[5px]'>Bize Ulaşın: </span>
-            <a href="tel:+902323111010" target="_blank"><img src="../public/whatsapp.png"  alt=""  className="w-10 h-10 filter invert" /></a>
-            <a href="https://www.instagram.com/universiteege/?hl=tr" target="_blank"><img src="../public/instagram.png" alt=""  className="w-10 h-10 filter invert" /></a>
-            <a href="https://x.com/universiteege" target="_blank"><img src="../public/twitter.png" alt=""  className="w-10 h-10 filter invert" /></a>
-            <a href="mailto:egeuniversitesi@egeuniversitesi.hs03.kep.tr" target="_blank"><img src="../public/email.png" alt=""  className="w-10 h-10 filter invert" /></a>
+            <a href="tel:+902323111010" target="_blank"><img src="../public/whatsapp.png"  alt=""  className="w-6 h-6 mt-[5px] filter invert" /></a>
+            <a href="https://www.instagram.com/universiteege/?hl=tr" target="_blank"><img src="../public/instagram.png" alt=""  className="w-6 h-6 mt-[5px] filter invert" /></a>
+            <a href="https://x.com/universiteege" target="_blank"><img src="../public/twitter.png" alt=""  className="w-6 h-6 mt-[5px] filter invert" /></a>
+            <a href="mailto:egeuniversitesi@egeuniversitesi.hs03.kep.tr" target="_blank"><img src="../public/email.png" alt=""  className="w-6 h-6 mt-[5px] filter invert" /></a>
           </div>
         </div>
       </div>    

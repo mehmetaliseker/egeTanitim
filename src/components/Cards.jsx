@@ -53,7 +53,7 @@ function Cards() {
     setTimeout(() => {
       setModalIsOpen(false);
       setSelectedCard(null);
-    }, 300);
+    });
   };
 
   return (
@@ -83,7 +83,6 @@ function Cards() {
         </div>
       </div>
 
-      {/* Modal animasyonu olmuyor ve overlay opaklık sorunu */}
       {modalIsOpen && (
         <Modal
           isOpen={modalIsOpen}
@@ -91,9 +90,8 @@ function Cards() {
           className={`bg-white rounded-xl p-6 w-125 mx-auto relative transition-all duration-500 ease-out 
               ${isClosing ? "animate-fadeOut" : "animate-fadeIn"
             }`}
-          overlayClassName="fixed inset-0 bg-black/25 flex justify-center items-center z-50"
+          overlayClassName="fixed inset-0 bg-black/70 flex justify-center items-center z-50"
           closeTimeoutMS={300}
-          // style={{boxshadow:" rgba(0, 0, 0, 0.35) 0px 5px 15px;"}}
         >
           {selectedCard && (
             <>

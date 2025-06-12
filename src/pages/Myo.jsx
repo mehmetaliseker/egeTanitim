@@ -1,5 +1,7 @@
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import { useState } from "react";
+import CustomModal from "../components/CustomModal";
 
 const myos = [
   {
@@ -71,12 +73,25 @@ const myos = [
 ];
 
 function Myo() {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+  const [selectedMyo, setSelectedMyo] = useState(null);
+
+  const openModal = (myo) => {
+    setSelectedMyo(myo);
+    setModalIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalIsOpen(false);
+    setSelectedMyo(null);
+  };
+
   return (
     <>
       <Navbar />
 
       <div className="my-32 px-8">
-        <h1 className="text-3xl font-bold mb-12 italic text-center">Meslek Yüksekokulları</h1>
+        <h1 className="text-3xl font-bold mb-12 text-center">Meslek Yüksekokulları</h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {myos.map((myo, index) => (
@@ -90,13 +105,14 @@ function Myo() {
                   alt={myo.name}
                   className="w-full h-full object-cover transition duration-500 group-hover:blur-sm"
                 />
-                <a href={myo.link} target='_blank' >
-                  <button className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
-                    <span className="bg-blue-600 text-white px-4 py-2 rounded shadow-md hover:bg-blue-700">
-                      Daha Fazlası..
-                    </span>
-                  </button>
-                </a>
+                <button
+                  onClick={() => openModal(myo)}
+                  className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300"
+                >
+                  <span className="bg-blue-600 text-white px-4 py-2 rounded shadow-md hover:bg-blue-700">
+                    Daha Fazlası..
+                  </span>
+                </button>
               </div>
 
               <div className="p-4">
@@ -110,6 +126,8 @@ function Myo() {
 
       <div className='my-10'></div>
       <Footer />
+
+      <CustomModal isOpen={modalIsOpen} onClose={closeModal} data={selectedMyo} />
     </>
   );
 }

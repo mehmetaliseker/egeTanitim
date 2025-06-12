@@ -1,7 +1,7 @@
 function AboutUs() {
   return (
     <>
-      <h1 className="text-center text-gray-700 italic bold font-2xl text-2xl mt-40">Hakkımızda</h1><br />
+      <h3 className="text-center text-gray-700 font-semibold text-2xl mt-40">Hakkımızda</h3><br />
       <div className="w-[100%] h-130 mx-100 justify-center mx-auto mb-40">
         <div className="flex gap-5 justify-center items-center">
           <div className="flex flex-col items-end">
@@ -27,7 +27,7 @@ function AboutUs() {
           </div>
         </div>
         <div className="w-full flex justify-center px-4">
-          <p className="mt-8 text-center text-gray-800  text-base max-w-4xl">
+          <p className="mt-8 text-center text-gray-800  text-sm max-w-4xl">
             EÜ Rektörlüğü ve Üniversitenin Kampüs dışında yer alan Bornova'daki çeşitli birimlerinin yanı sıra, 
             Konak'ta Atatürk Kültür Merkezi, Çeşme ve Ödemiş'te yüksek okulları, Tire, Bergama, Bayındır, Ödemiş, 
             Aliağa ve Urla'da meslek yüksek okulları, Urla, Menemen, Mordoğan, Çiğli, Özdere'de uygulama ve eğitim merkezleri, 

@@ -9,6 +9,7 @@ function AnimatedSection({ children }) {
   });
 
   return (
+    <>
     <motion.div
       ref={ref}
       initial={{ opacity: 0, y: 40 }}
@@ -16,7 +17,9 @@ function AnimatedSection({ children }) {
       transition={{ duration: 0.6, ease: 'easeInOut' }}
     >
       {children}
-    </motion.div>
+    </motion.div>    
+    </>
+
   );
 }
 

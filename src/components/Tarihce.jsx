@@ -6,13 +6,13 @@ function Tarihce() {
           <img src="../public/eskiEgeUni1.jpg" alt="" className="w-140 h-70 ml-30 rounded shadow-2xl"/>
         </div>
         <div>
-          <h1 className="text-3xl font-bold italic mx-30">
+          <h1 className="text-2xl font-bold mx-30">
             Üniversitemizin Tarihçesi
           </h1>
         </div>
       </div>
         <div className="mt-[-8em] mx-[14em] mb-[5em] cursor-default text-[rgba(25,25,25,0.9)]">
-        <p>
+        <p className="text-sm text-gray-800">
           Ege Üniversitesi, Türkiye’nin dördüncü üniversitesi olarak 20 Mayıs 1955 tarihli 9013 sayılı Resmi Gazete'de yayınlanan
           6595 sayılı " Ege Üniversitesi adıyla İzmir'de bir üniversite kurulması hakkında Kanun" ile kurulmuş ve 5 Kasım 1955 tarihinde,
           eğitim-öğretim hayatına başlamıştır.

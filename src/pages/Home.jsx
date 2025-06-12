@@ -8,12 +8,15 @@ import Istatistik from '../components/Istatistik';
 import Footer from '../components/Footer';
 import EgeLogo from '../components/EgeLogo';
 import AnimatedSection from '../components/AnimatedSection'; 
+import YetmisinciYil from '../components/yetmisinciYil';
 
 
 function Home() {
   return (
     <>
       <EgeLogo />
+
+      <YetmisinciYil />
 
       <Navbar />
       
