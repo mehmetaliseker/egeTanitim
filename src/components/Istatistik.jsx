@@ -20,7 +20,7 @@ function Istatistik() {
         </div>
       </div>
       <br />
-      <h1 className='text-center text-3xl bold italic mt-10 mx-20 mb-40'>EGELİ OLMAK AYRICALIKTIR!</h1>
+      <h1 className='text-center text-3xl bold italic mt-10 mx-20 mb-30'>EGELİ OLMAK AYRICALIKTIR!</h1>
     </>
   );
 }

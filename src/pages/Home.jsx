@@ -9,6 +9,7 @@ import Footer from '../components/Footer';
 import EgeLogo from '../components/EgeLogo';
 import AnimatedSection from '../components/AnimatedSection'; 
 import YetmisinciYil from '../components/yetmisinciYil';
+import GeriBildirim from '../components/GeriBildirim';
 
 
 function Home() {
@@ -42,6 +43,9 @@ function Home() {
         <Istatistik />
       </AnimatedSection>
 
+      <AnimatedSection>
+        <GeriBildirim />        
+      </AnimatedSection>
       <Footer />
     </>
   );

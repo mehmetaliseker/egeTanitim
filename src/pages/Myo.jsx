@@ -2,75 +2,78 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { useState } from "react";
 import CustomModal from "../components/CustomModal";
+import myos from '../data/myos'; 
 
-const myos = [
-  {
-    name: 'Aliağa MYO',
-    description: 'Sanayi bölgesine yakınlığıyla dikkat çeken okul, uygulamalı eğitimleriyle öne çıkar.',
-    image: '../public/aliagaMYO.jpg',
-    link: 'https://aliaga.ege.edu.tr/'
-  },
-  {
-    name: 'Atatürk Sağlık Hizmetleri MYO',
-    description: '12 farklı alanda sağlık personeli yetiştiren okul, sosyal sorumluluk projeleriyle de öne çıkar.',
-    image: '../public/ataturkMYO.jpg',
-    link: 'https://egeatasaglik.ege.edu.tr/'
-  },
-  {
-    name: 'Bayındır MYO',
-    description: 'Bölgesel kalkınmaya katkı sağlayan programlarıyla tanınır.',
-    image: '../public/bayindirMYO.jpg',
-    link: 'https://bayindirmyo.ege.edu.tr/'
-  },
-  {
-    name: 'Bergama MYO',
-    description: '31 yıllık geçmişiyle binlerce mezun veren okul, inovasyona ve teknolojiye önem verir.',
-    image: '../public/bergamaMYO.jpg',
-    link: 'https://bergamamyo.ege.edu.tr/'
-  },
-  {
-    name: 'Ege MYO',
-    description: 'Sanayinin ihtiyaçlarına yönelik programlarıyla, mezunlarına geniş iş olanakları sunan köklü bir yüksekokuldur. ',
-    image: '../public/egeMYO.jpg',
-    link: 'https://egemyo.ege.edu.tr/'
-  },
-  {
-    name: 'Emel Akın MYO',
-    description: 'Tekstil ve moda alanında uluslararası etkinliklerle adından söz ettirir.',
-    image: '../public/emelakinMYO.jpg',
-    link: 'https://eamyo.ege.edu.tr/'
-  },
-  {
-    name: 'Havacılık MYO',
-    description: 'Havacılık hizmetleri alanında kaliteli eğitim sunan birimdir.',
-    image: '../public/havacilikMYO.jpg',
-    link: 'https://havacilikmyo.ege.edu.tr/'
-  },
-  {
-    name: 'Ödemiş MYO',
-    description: 'Tarım ve hayvancılık alanlarında uygulamalı eğitimler sunar.',
-    image: '../public/odemisMYO.jpg',
-    link: 'https://odemismyo.ege.edu.tr/'
-  },
-  {
-    name: 'Siber Güvenlik MYO',
-    description: 'Dijital güvenlik alanında uzmanlaşmış programlarıyla, sektöre nitelikli elemanlar kazandırır.',
-    image: '../public/siberMYO.jpg',
-    link: 'https://sgmyo.ege.edu.tr/'
-  },
-  {
-    name: 'Tire Kutsan MYO',
-    description: 'Üniversite-sanayi işbirliğiyle dikkat çeken okul, öğrenci odaklı etkinlikleriyle bilinir.',
-    image: '../public/tireMYO.jpg',
-    link: 'https://tkmyo.ege.edu.tr/'
-  },
-  {
-    name: 'Urla Denizcilik MYO',
-    description: 'Denizcilik alanında uzmanlaşmış programlarıyla sektöre nitelikli elemanlar yetiştirir.',
-    image: '../public/urlaMYO.jpg',
-    link: 'https://udmyo.ege.edu.tr/'
-  }
-];
+
+
+// const myos = [
+//   {
+//     name: 'Aliağa MYO',
+//     description: 'Sanayi bölgesine yakınlığıyla dikkat çeken okul, uygulamalı eğitimleriyle öne çıkar.',
+//     image: '../public/aliagaMYO.jpg',
+//     link: 'https://aliaga.ege.edu.tr/'
+//   },
+//   {
+//     name: 'Atatürk Sağlık Hizmetleri MYO',
+//     description: '12 farklı alanda sağlık personeli yetiştiren okul, sosyal sorumluluk projeleriyle de öne çıkar.',
+//     image: '../public/ataturkMYO.jpg',
+//     link: 'https://egeatasaglik.ege.edu.tr/'
+//   },
+//   {
+//     name: 'Bayındır MYO',
+//     description: 'Bölgesel kalkınmaya katkı sağlayan programlarıyla tanınır.',
+//     image: '../public/bayindirMYO.jpg',
+//     link: 'https://bayindirmyo.ege.edu.tr/'
+//   },
+//   {
+//     name: 'Bergama MYO',
+//     description: '31 yıllık geçmişiyle binlerce mezun veren okul, inovasyona ve teknolojiye önem verir.',
+//     image: '../public/bergamaMYO.jpg',
+//     link: 'https://bergamamyo.ege.edu.tr/'
+//   },
+//   {
+//     name: 'Ege MYO',
+//     description: 'Sanayinin ihtiyaçlarına yönelik programlarıyla, mezunlarına geniş iş olanakları sunan köklü bir yüksekokuldur. ',
+//     image: '../public/egeMYO.jpg',
+//     link: 'https://egemyo.ege.edu.tr/'
+//   },
+//   {
+//     name: 'Emel Akın MYO',
+//     description: 'Tekstil ve moda alanında uluslararası etkinliklerle adından söz ettirir.',
+//     image: '../public/emelakinMYO.jpg',
+//     link: 'https://eamyo.ege.edu.tr/'
+//   },
+//   {
+//     name: 'Havacılık MYO',
+//     description: 'Havacılık hizmetleri alanında kaliteli eğitim sunan birimdir.',
+//     image: '../public/havacilikMYO.jpg',
+//     link: 'https://havacilikmyo.ege.edu.tr/'
+//   },
+//   {
+//     name: 'Ödemiş MYO',
+//     description: 'Tarım ve hayvancılık alanlarında uygulamalı eğitimler sunar.',
+//     image: '../public/odemisMYO.jpg',
+//     link: 'https://odemismyo.ege.edu.tr/'
+//   },
+//   {
+//     name: 'Siber Güvenlik MYO',
+//     description: 'Dijital güvenlik alanında uzmanlaşmış programlarıyla, sektöre nitelikli elemanlar kazandırır.',
+//     image: '../public/siberMYO.jpg',
+//     link: 'https://sgmyo.ege.edu.tr/'
+//   },
+//   {
+//     name: 'Tire Kutsan MYO',
+//     description: 'Üniversite-sanayi işbirliğiyle dikkat çeken okul, öğrenci odaklı etkinlikleriyle bilinir.',
+//     image: '../public/tireMYO.jpg',
+//     link: 'https://tkmyo.ege.edu.tr/'
+//   },
+//   {
+//     name: 'Urla Denizcilik MYO',
+//     description: 'Denizcilik alanında uzmanlaşmış programlarıyla sektöre nitelikli elemanlar yetiştirir.',
+//     image: '../public/urlaMYO.jpg',
+//     link: 'https://udmyo.ege.edu.tr/'
+//   }
+// ];
 
 function Myo() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -117,15 +120,16 @@ function Myo() {
 
               <div className="p-4">
                 <h2 className="text-xl font-semibold mb-2">{myo.name}</h2>
-                <p className="text-gray-700">{myo.description}</p>
+                <p className="text-gray-700">{myo.description || myo.longDescription}</p>
+
               </div>
             </div>
           ))}
         </div>
       </div>
 
-      <div className='my-10'></div>
-      <Footer />
+
+      <Footer className='mt-10' />
 
       <CustomModal isOpen={modalIsOpen} onClose={closeModal} data={selectedMyo} />
     </>

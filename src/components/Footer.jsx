@@ -5,7 +5,8 @@ function Footer() {
       <div className="w-full h-35 bg-gray-800 flex justify-around text-white items-center">
         <div className="w-100 h-auto">
           <p>     
-            Adresimiz: <span className='underline'>Ege Üniversitesi Rektörlüğü Gençlik Caddesi No : 12 35040 Bornova - İZMİR</span>
+            Adresimiz: <span className='underline'> <a href="https://www.google.com/maps/place/Ege+%C3%9Cniversitesi/@38.4566034,27.2281981,17z/data=!3m1!4b1!4m6!3m5!1s0x14b97cd613b60187:0x92f60c749816beea!8m2!3d38.4566034!4d27.2281981!16zL20vMGN0dDZj?entry=ttu&g_ep=EgoyMDI1MDYwOS4xIKXMDSoASAFQAw%3D%3D" target="_blank">
+            Ege Üniversitesi Rektörlüğü Gençlik Caddesi No : 12 35040 Bornova - İZMİR</a></span>
           </p>
         </div>
         <div className="w-70 h-auto">

@@ -1,42 +1,45 @@
 import { useState } from "react";
 import Modal from "react-modal";
 import { IoCloseOutline } from "react-icons/io5";
+import cards from '../data/cards.json';
 
 Modal.setAppElement("#root");
 
 function Cards() {
-  const cards = [
-    {
-      title: "Başarılar ve Ödüller",
-      img: "/kupa1.jpg",
-      description: "Ege Üniversitesi'nin kazandığı ödüller ve başarı hikâyeleri.",
-    },
-    {
-      title: "Misyon ve Vizyon",
-      img: "/visionMisison.jpg",
-      description: "Üniversitenin amaçları ve geleceğe yönelik hedefleri.",
-    },
-    {
-      title: "Erasmus Programları",
-      img: "/erasmus.jpg",
-      description: "Erasmus öğrenci değişim programlarına dair bilgiler.",
-    },
-    {
-      title: "Öğrenci Hayatı",
-      img: "/hayat.jpg",
-      description: "Kampüs yaşamı, sosyal kulüpler ve öğrenci aktiviteleri.",
-    },
-    {
-      title: "Kariyer Olanakları",
-      img: "/kariyer.jpg",
-      description: "Mezunlara ve öğrencilere sunulan kariyer imkanları.",
-    },
-    {
-      title: "Spor ve Kültürel Etkinlikler",
-      img: "/havuz.jpg",
-      description: "Üniversitedeki spor tesisleri ve kültürel organizasyonlar.",
-    },
-  ];
+  //cards yapisi json dosyasindan alindi
+  
+  // const cards = [
+  //   {
+  //     title: "Başarılar ve Ödüller",
+  //     img: "/kupa1.jpg",
+  //     description: "Ege Üniversitesi'nin kazandığı ödüller ve başarı hikâyeleri.",
+  //   },
+  //   {
+  //     title: "Misyon ve Vizyon",
+  //     img: "/visionMisison.jpg",
+  //     description: "Üniversitenin amaçları ve geleceğe yönelik hedefleri.",
+  //   },
+  //   {
+  //     title: "Erasmus Programları",
+  //     img: "/erasmus.jpg",
+  //     description: "Erasmus öğrenci değişim programlarına dair bilgiler.",
+  //   },
+  //   {
+  //     title: "Öğrenci Hayatı",
+  //     img: "/hayat.jpg",
+  //     description: "Kampüs yaşamı, sosyal kulüpler ve öğrenci aktiviteleri.",
+  //   },
+  //   {
+  //     title: "Kariyer Olanakları",
+  //     img: "/kariyer.jpg",
+  //     description: "Mezunlara ve öğrencilere sunulan kariyer imkanları.",
+  //   },
+  //   {
+  //     title: "Spor ve Kültürel Etkinlikler",
+  //     img: "/havuz.jpg",
+  //     description: "Üniversitedeki spor tesisleri ve kültürel organizasyonlar.",
+  //   },
+  // ];
 
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [selectedCard, setSelectedCard] = useState(null);
