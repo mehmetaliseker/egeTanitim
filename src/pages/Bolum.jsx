@@ -5,10 +5,10 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import kategoriler from '../data/kategoriler.json'; 
-
+import kategoriler from '../data/kategoriler.json';
 
 function Bolum() {
+
   // kategoriler.json dosyasindan bolumleri aldim
 
   // const kategoriler = {
@@ -119,7 +119,6 @@ function Bolum() {
   //   ]
   // };
 
-
   const [containerHeight, setContainerHeight] = useState(0);
   const slideRefs = useRef([]);
   const sliderRef = useRef(null);
@@ -140,44 +139,45 @@ function Bolum() {
   };
 
   useEffect(() => {
-    if (slideRefs.current[0]) {
-      setContainerHeight(slideRefs.current[0].offsetHeight);
-    }
+    setTimeout(() => {
+      if (slideRefs.current[0]) {
+        setContainerHeight(slideRefs.current[0].offsetHeight);
+      }
+    }, 50);
   }, []);
 
   return (
-    <>
-
     <div className="min-h-screen flex flex-col">
       <Navbar />
 
-      <div className="flex-1 mt-18 flex flex-col items-center justify-center relative px-4 py-16">
-        <h1 className=" text-3xl font-bold mb-10  text-center">Bölümler</h1>
+      <div className="flex-1 flex flex-col items-center justify-center px-4 py-10">
+        <h1 className="text-3xl font-bold mb-10 text-center">Bölümler</h1>
 
-        {/* Oklar */}
         <button
           onClick={() => sliderRef.current.slickPrev()}
-          className="fixed left-1/5 top-1/2 transform -translate-y-1/2 text-3xl text-blue-600 hover:text-blue-800 z-10"
+          className="fixed left-1/5 top-1/2 transform -translate-y-1/2 text-3xl text-blue-500 hover:text-blue-800 z-10"
         >
           <FaArrowLeft />
         </button>
 
         <button
           onClick={() => sliderRef.current.slickNext()}
-          className="fixed right-1/5 top-1/2 transform -translate-y-1/2 text-3xl text-blue-600 hover:text-blue-800 z-10"
+          className="fixed right-1/5 top-1/2 transform -translate-y-1/2 text-3xl text-blue-500 hover:text-blue-800 z-10"
         >
           <FaArrowRight />
         </button>
 
         <div
-          className="transition-all duration-500 w-full max-w-4xl"
-          style={{ minHeight: '400px' }}
+          className="transition-all duration-500 w-full max-w-4xl relative"
+          style={{
+            height: `${containerHeight}px`,
+          }}
         >
           <Slider ref={sliderRef} {...settings}>
             {Object.entries(kategoriler).map(([kategori, bolumler], i) => (
               <div
                 key={i}
-                className="p-4 rounded-xl bg-white px-6"
+                className="p-4 rounded-xl px-6"
                 ref={(el) => (slideRefs.current[i] = el)}
               >
                 <h2 className="text-2xl border-b pb-2 font-semibold mb-4 text-center text-blue-700">
@@ -201,10 +201,9 @@ function Bolum() {
           </Slider>
         </div>
       </div>
-
-      <Footer />
+      {/* footer koyunca sayfa boyutuyla ilgili sorun oluyor */}
+      {/* <Footer /> */}
     </div>
-    </>
   );
 }
 
