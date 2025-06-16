@@ -147,7 +147,7 @@ function Bolum() {
   }, []);
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col overflow-y-hidden">
       <Navbar />
 
       <div className="flex-1 flex flex-col items-center justify-center px-4 py-10">
@@ -202,7 +202,7 @@ function Bolum() {
         </div>
       </div>
       {/* footer koyunca sayfa boyutuyla ilgili sorun oluyor */}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

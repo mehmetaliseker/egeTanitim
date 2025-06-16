@@ -1,18 +1,19 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
-import React from 'react';
+import menuItems from '../data/menuItems.json';
+
 
 function Navbar() {
   const [is_menu_clicked, setIs_menu_clicked] = useState(false);
   const updateMenu = () => setIs_menu_clicked(!is_menu_clicked);
 
-  const menuItems = [
-    { path: "/", label: "Ana Sayfa" },
-    { path: "/myo", label: "MYO'lar" },
-    { path: "/bolum", label: "Bölümler" },
-    { path: "/fakulte", label: "Fakülteler" }
-  ];
+  // const menuItems = [
+  //   { path: "/", label: "Ana Sayfa" },
+  //   { path: "/myo", label: "MYO'lar" },
+  //   { path: "/bolum", label: "Bölümler" },
+  //   { path: "/fakulte", label: "Fakülteler" }
+  // ];
 
   return (
     <>

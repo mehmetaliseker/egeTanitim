@@ -49,8 +49,8 @@ function GeriBildirim() {
       <Modal
         isOpen={isOpen}
         onRequestClose={closeModal}
-        className="bg-white rounded-lg p-6 max-w-sm mx-auto mt-40 shadow-lg relative outline-none"
-        overlayClassName="fixed inset-0 bg-black/50 flex justify-center items-center"
+        className="bg-white rounded-lg p-6 max-w-sm mx-auto mt-40 z-40 shadow-lg relative outline-none"
+        overlayClassName="fixed inset-0 bg-black/50 flex justify-center z-40 items-center"
       >
 
         <button
