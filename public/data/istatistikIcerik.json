@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "image": "/homeImg/study.png",
+    "text": "59.000+ Öğrencisiyle"
+  },
+  {
+    "id": 2,
+    "image": "/homeImg/training.png",
+    "text": "3.000+ Akademik Kadrosuyla"
+  },
+  {
+    "id": 3,
+    "image": "/homeImg/building.png",
+    "text": "19 Fakültesiyle"
+  },
+  {
+    "id": 4,
+    "image": "/homeImg/pillar.png",
+    "text": "70 Yıllık Geçmişiyle"
+  }
+]

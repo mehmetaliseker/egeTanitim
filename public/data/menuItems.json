@@ -1,0 +1,7 @@
+[
+    { "path": "/home", "id": 1, "label": "Ana Sayfa" },
+    { "path": "/myo", "id": 2, "label": "MYO'lar" },
+    { "path": "/fakulte", "id": 3, "label": "Fakülteler" },
+    { "path": "/bolum", "id": 4, "label": "Bölümler" },
+    { "path": "/", "id": 5, "label": "Yönlendirme Sayfası" }
+]

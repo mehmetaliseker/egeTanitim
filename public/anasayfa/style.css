@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+html{
+    scroll-behavior:smooth ;
+
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    overflow-x: hidden ;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero {
+    background: url('../galeri/tire.kutsan.myo.arkaplan.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: 40px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.btn {
+    background-color: #003366;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 20px;
+    /* background-color: #ffffff; */
+}
+
+.card {
+    background-color: #e9e9e9;
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card h2 {
+    margin-bottom: 10px;
+    color: #003366;
+}
+
+.card a {
+    color: #003366;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    display: flex ;
+    place-items: center;
+    padding: 10px 0;
+    height: 100px;
+    text-align: center;
+    justify-content:space-evenly;
+
+
+}
+.baslik{
+   margin-left: 42%;
+   color: #003366;
+}
+img{
+    width: 550px;
+    height: 300px;
+    margin-left: 30%;
+}
+.baslik2{
+     margin-left: 33%;
+     color: #003366;
+
+}
+.Film{
+       margin-left: 40%;
+       color: #003366;
+}
+.video{
+       margin-left: 28%;
+       margin-bottom: 50px;
+
+}
+.hakkimizda{
+    margin: 0 3em 0 3em ;
+    text-indent: 30px;
+
+}
+.mv{
+    margin: 0 3em 0 3em;
+}
+.harita{
+    color: #e9e9e9;
+    text-decoration: none;
+}
+.arkaplan{
+    width: 500px;
+    height: 500px;
+    position: fixed;
+    z-index: -50;
+    opacity: 0.4;
+
+}
+
+.tarihce-kutusu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  gap: 40px;
+  background-color: rgb(255, 255, 255);
+  max-width: 1200px;
+  margin: 50px auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 12px;
+}
+
+.tarihce-yazi {
+  flex: 1;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.tarihce-yazi h2 {
+  font-size: 28px;
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+.tarihce-resim {
+  flex: 1;
+  max-width: 50%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.tarihce-resim img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+

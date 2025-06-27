@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Başarılar ve Ödüller",
+    "image": "/homeImg/egeBasari.jpg",
+    "description": "Ege Üniversitesi'nin kazandığı ödüller ve başarı hikâyeleri."
+  },
+  {
+    "id": 2,
+    "title": "Misyon ve Vizyon",
+    "image": "/homeImg/visionMisison.jpg",
+    "description": "Üniversitenin amaçları ve geleceğe yönelik hedefleri."
+  },
+  {
+    "id": 3,
+    "title": "Erasmus Programları",
+    "image": "/homeImg/erasmus.jpg",
+    "description": "Erasmus öğrenci değişim programlarına dair bilgiler."
+  },
+  {
+    "id": 4,
+    "title": "Öğrenci Hayatı",
+    "image": "/homeImg/hayat.jpg",
+    "description": "Kampüs yaşamı, sosyal kulüpler ve öğrenci aktiviteleri."
+  },
+  {
+    "id": 5,
+    "title": "Kariyer Olanakları",
+    "image": "/homeImg/kariyer.jpg",
+    "description": "Mezunlara ve öğrencilere sunulan kariyer imkanları."
+  },
+  {
+    "id": 6,
+    "title": "Spor ve Kültürel Etkinlikler",
+    "image": "/homeImg/havuz.jpg",
+    "description": "Üniversitedeki spor tesisleri ve kültürel organizasyonlar."
+  }
+]

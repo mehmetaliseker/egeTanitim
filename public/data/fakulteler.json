@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "name": "Birgivi İlahiyat Fakültesi",
+    "description": "İslam ilimleri, din eğitimi ve felsefe alanlarında eğitim verir. Akademik ve etik değerlere önem verir.",
+    "established": 2018,
+    "location": "Bornova Kampüsü",
+    "images": ["/fakulteImg/ilahiyat2.jpg", "/fakulteImg/ilahiyat1.jpg"],
+    "link": "https://biif.ege.edu.tr/"
+  },
+  {
+    "id": 2,
+    "name": "Çeşme Turizm Fakültesi",
+    "description": "Turizm, otelcilik ve gastronomi alanlarında uzmanlaşmıştır. Uygulamalı eğitim ve sektörel iş birlikleriyle dikkat çeker.",
+    "established": 1998,
+    "location": "Çeşme Kampüsü",
+    "images": ["/fakulteImg/turizm1.jpg", "/fakulteImg/turizm2.jpg"],
+    "link": "https://turizm.ege.edu.tr/"
+  },
+  {
+    "id": 3,
+    "name": "Diş Hekimliği Fakültesi",
+    "description": "Modern klinik imkanlarla ağız ve diş sağlığı eğitimi sunar. Hem teorik hem uygulamalı eğitimle öğrencilerini donatır.",
+    "established": 1968,
+    "location": "Bornova Kampüsü",
+    "images": ["/fakulteImg/dis1.jpg", "/fakulteImg/dis2.jpg"],
+    "link": "https://dent.ege.edu.tr/"
+  },
+  {
+    "id": 4,
+    "name": "Eczacılık Fakültesi",
+    "description": "İlaç ve sağlık teknolojileri üzerine eğitim ve araştırmalar yapar. İlaç sektörüne nitelikli eczacılar kazandırır.",
+    "established": 1975,
+    "location": "Bornova Kampüsü",
+    "images": ["/fakulteImg/eczacilik1.jpg", "/fakulteImg/eczacilik2.jpg"],
+    "link": "https://eczacilik.ege.edu.tr/"
+  },
+  {
+    "id": 5,
+    "name": "Edebiyat Fakültesi",
+    "description": "Dil, tarih, edebiyat ve kültür alanlarında geniş bir eğitim yelpazesi sunar. Akademik araştırmalarla öne çıkar.",
+    "established": 1955,
+    "location": "Bornova Kampüsü",
+    "images": ["/fakulteImg/edebiyat1.png", "/fakulteImg/edebiyat2.jpg"],
+    "link": "https://edebiyat.ege.edu.tr/"
+  },
+  {
+    "id": 6,
+    "name": "Eğitim Fakültesi",
+    "description": "Öğretmenlik ve eğitim bilimleri alanında uzmanlar yetiştirir. Teorik ve uygulamalı eğitim programlarına sahiptir.",
+    "established": 1955,
+    "location": "Bornova Kampüsü",
+    "images": ["/fakulteImg/egitim1.webp", "/fakulteImg/egitim2.webp"],
+    "link": "https://egitim.ege.edu.tr/"
+  },
+  {
+    "id": 7,
+    "name": "Fen Fakültesi",
+    "description": "Temel bilimlerde araştırma ve eğitim verir. Fizik, kimya, biyoloji gibi disiplinlerde akademik faaliyet yürütür.",
+    "established": 1955,
+    "location": "Bornova Kampüsü",
+    "images": ["/fakulteImg/fen1.jpg", "/fakulteImg/fen2.webp"],
+    "link": "https://fen.ege.edu.tr/"
+  },
+  {
+    "id": 8,
+    "name": "Güzel Sanatlar, Tasarım ve Mimarlık Fakültesi",
+    "description": "Sanat, tasarım ve mimarlık alanlarında eğitim sunar. Yaratıcı projeler ve uygulamalı çalışmalarla öne çıkar.",
+    "established": 1992,
+    "location": "Bornova Kampüsü",
+    "images": ["/fakulteImg/gsmtf1.jpg", "/fakulteImg/gsmtf2.jpg"],
+    "link": "https://gstmf.ege.edu.tr/"
+  },
+  {
+    "id": 9,
+    "name": "Hemşirelik Fakültesi",
+    "description": "Sağlık sektörüne modern hemşireler kazandırır. Klinik uygulamalar ve etik değerlere önem verir.",
+    "established": 2018,
+    "location": "Tıp Kampüsü",
+    "images": ["/fakulteImg/hemsirelik1.jpg", "/fakulteImg/hemsirelik2.jpg"],
+    "link": "https://hemsirelik.ege.edu.tr/"
+  },
+  {
+    "id": 10,
+    "name": "İktisadi ve İdari Bilimler Fakültesi",
+    "description": "İktisat, işletme, kamu yönetimi gibi alanlarda eğitim verir. Sektöre yönelik teorik ve pratik bilgiler sunar.",
+    "established": 1955,
+    "location": "Bornova Kampüsü",
+    "images": ["/fakulteImg/iktisat1.webp", "/fakulteImg/iktisat2.jpg"],
+    "link": "https://iibf.ege.edu.tr/"
+  },
+  {
+    "id": 11,
+    "name": "İletişim Fakültesi",
+    "description": "Gazetecilik, halkla ilişkiler ve medya alanında eğitim verir. Uygulamalı medya laboratuvarlarıyla desteklenir.",
+    "established": 1955,
+    "location": "Bornova Kampüsü",
+    "images": ["/fakulteImg/iletisim1.jpg", "/fakulteImg/iletisim2.jpg"],
+    "link": "https://iletisim.ege.edu.tr/"
+  },
+  {
+    "id": 12,
+    "name": "Mühendislik Fakültesi",
+    "description": "Bilim ve teknolojiyi birleştiren mühendislik eğitimi sunar. Çok sayıda mühendislik dalında uzman yetiştirir.",
+    "established": 1955,
+    "location": "Bornova Kampüsü",
+    "images": ["/fakulteImg/muh1.jpg", "/fakulteImg/muh2.jpg"],
+    "link": "https://muhfak.ege.edu.tr/"
+  },
+  {
+    "id": 13,
+    "name": "Ödemiş Sağlık Bilimleri Fakültesi",
+    "description": "Sağlık alanında nitelikli personel yetiştirir. Uygulamalı eğitim ve modern altyapıya sahiptir.",
+    "established": 2018,
+    "location": "Ödemiş Yerleşkesi",
+    "images": ["/fakulteImg/odemissaglik1.jpg", "/fakulteImg/odemissaglik2.jpg"],
+    "link": "https://odemissbf.ege.edu.tr/"
+  },
+  {
+    "id": 14,
+    "name": "Sağlık Bilimleri Fakültesi",
+    "description": "Fizyoterapi, beslenme ve diyetetik gibi sağlık dallarında eğitim verir. Sağlık sektörünün ihtiyaçlarına cevap verir.",
+    "established": 2018,
+    "location": "Tıp Kampüsü",
+    "images": ["/fakulteImg/saglik1.jpg", "/fakulteImg/saglik2.jpg"],
+    "link": "https://sbf.ege.edu.tr/"
+  },
+  {
+    "id": 15,
+    "name": "Spor Bilimleri Fakültesi",
+    "description": "Spor eğitimi, antrenörlük ve spor yönetimi alanında uzmanlar yetiştirir. Uygulamalı spor alanlarıyla desteklenir.",
+    "established": 2018,
+    "location": "Bornova Kampüsü",
+    "images": ["/fakulteImg/spor1.jpg", "/fakulteImg/spor2.jpeg"],
+    "link": "https://sporbilimleri.ege.edu.tr/"
+  },
+  {
+    "id": 16,
+    "name": "Su Ürünleri Fakültesi",
+    "description": "Balıkçılık, su ürünleri yetiştiriciliği ve deniz bilimi konularında eğitim verir. Sektöre yönelik araştırmalar yapar.",
+    "established": 1955,
+    "location": "Bornova Kampüsü",
+    "images": ["/fakulteImg/su1.jpeg", "/fakulteImg/su2.jpeg"],
+    "link": "https://egefish.ege.edu.tr/"
+  },
+  {
+    "id": 17,
+    "name": "Tıp Fakültesi",
+    "description": "Türkiye’nin köklü tıp fakültelerinden biridir. Teorik ve uygulamalı tıp eğitimi sunar, araştırmalarıyla öne çıkar.",
+    "established": 1955,
+    "location": "Tıp Kampüsü",
+    "images": ["/fakulteImg/tip1.jpg", "/fakulteImg/tip2.jpg"],
+    "link": "https://med.ege.edu.tr/"
+  },
+  {
+    "id": 18,
+    "name": "Ziraat Fakültesi",
+    "description": "Tarım, hayvancılık, bitki koruma ve gıda teknolojisi alanında eğitim verir. Tarım sektörüne katkı sağlar.",
+    "established": 1955,
+    "location": "Bornova Kampüsü",
+    "images": ["/fakulteImg/ziraat1.jpg", "/fakulteImg/ziraat2.jpg"],
+    "link": "https://agr.ege.edu.tr/"
+  }
+]

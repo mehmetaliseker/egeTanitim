@@ -1,0 +1,408 @@
+{
+  "Mühendislik Fakültesi": [
+    {
+      "id": 1,
+      "name": "Bilgisayar Mühendisliği (İngilizce)",
+      "desc": "Yapay zeka, yazılım ve sistem tasarımı eğitimleri."
+    },
+    {
+      "id": 2,
+      "name": "Elektrik‑Elektronik Mühendisliği (İngilizce)",
+      "desc": "Elektronik ve enerji sistemleri üzerinde çalışır."
+    },
+    {
+      "id": 3,
+      "name": "İnşaat Mühendisliği (İngilizce)",
+      "desc": "Yapı, altyapı projeleri tasarım ve yönetimi."
+    },
+    {
+      "id": 4,
+      "name": "Makine Mühendisliği (İngilizce)",
+      "desc": "Makine sistemleri ve üretim mühendisliği."
+    },
+    {
+      "id": 5,
+      "name": "Kimya Mühendisliği (İngilizce)",
+      "desc": "Proses, malzeme ve kimyasal üretim mühendisliği."
+    },
+    {
+      "id": 6,
+      "name": "Gıda Mühendisliği (İngilizce)",
+      "desc": "Gıda üretim teknolojileri ve güvenliği."
+    },
+    {
+      "id": 7,
+      "name": "Biyomühendislik (İngilizce)",
+      "desc": "Biyolojik sistemlerin mühendislik çözümleri."
+    },
+    {
+      "id": 8,
+      "name": "Deri Mühendisliği (İngilizce)",
+      "desc": "Deri işleme ve süreç teknolojileri."
+    },
+    {
+      "id": 9,
+      "name": "Tekstil Mühendisliği (İngilizce)",
+      "desc": "Tekstil teknolojisi ve üretim sistemleri."
+    }
+  ],
+  "Edebiyat Fakültesi": [
+    {
+      "id": 10,
+      "name": "Alman Dili ve Edebiyatı (Almanca)",
+      "desc": "Alman dili ve edebiyatı eğitimi."
+    },
+    {
+      "id": 11,
+      "name": "Almanca Mütercim‑Tercümanlık",
+      "desc": "Almanca çeviri ve dilbilim."
+    },
+    {
+      "id": 12,
+      "name": "Amerikan Kültürü ve Edebiyatı (İngilizce)",
+      "desc": "ABD edebiyatı ve kültürü."
+    },
+    {
+      "id": 13,
+      "name": "İngiliz Dili ve Edebiyatı (İngilizce)",
+      "desc": "İngiliz dili edebiyatı dersleri."
+    },
+    {
+      "id": 14,
+      "name": "İngilizce Mütercim‑Tercümanlık",
+      "desc": "İngilizce çeviri-nosyon eğitimi."
+    },
+    {
+      "id": 15,
+      "name": "Klasik Arkeoloji",
+      "desc": "Antik dönem arkeolojik araştırmalar."
+    },
+    {
+      "id": 16,
+      "name": "Protohistorya ve Ön Asya Arkeolojisi",
+      "desc": "Tarih öncesi uygarlıkların incelemesi."
+    },
+    {
+      "id": 17,
+      "name": "Coğrafya",
+      "desc": "Dünya sistemleri, beşeri ve fiziksel coğrafya."
+    },
+    {
+      "id": 18,
+      "name": "Felsefe",
+      "desc": "Temel filozofik düşünceler ve yaklaşımlar."
+    },
+    {
+      "id": 19,
+      "name": "Felsefe (KKTC Uyruklu)",
+      "desc": "KKTC öğrencilerine yönelik felsefe programı."
+    },
+    {
+      "id": 20,
+      "name": "Psikoloji",
+      "desc": "Davranışsal ve zihinsel süreçlerin incelenmesi."
+    },
+    {
+      "id": 21,
+      "name": "Sanat Tarihi",
+      "desc": "Sanat eserlerinin tarihi ve eleştirisi."
+    },
+    {
+      "id": 22,
+      "name": "Sosyoloji",
+      "desc": "Toplumsal yapı ve etkileşimler."
+    },
+    {
+      "id": 23,
+      "name": "Tarih",
+      "desc": "Tarihsel dönemleri ve olayları analiz eder."
+    },
+    {
+      "id": 24,
+      "name": "Tarih (KKTC Uyruklu)",
+      "desc": "KKTC öğrencileri için tarih genişletilmiş programı."
+    },
+    {
+      "id": 25,
+      "name": "Türk Dili ve Edebiyatı",
+      "desc": "Türk edebiyat tarihine odaklanır."
+    }
+  ],
+  "Fen Fakültesi": [
+    {
+      "id": 26,
+      "name": "Astronomi ve Uzay Bilimleri",
+      "desc": "Evrensel süreçler ve gök cisimlerini inceler."
+
+    },
+    {
+      "id": 27,
+      "name": "Biyokimya",
+      "desc": "Canlıların moleküler yapısını analiz eder."
+    },
+    {
+      "id": 28,
+      "name": "Biyokimya (KKTC Uyruklu)",
+      "desc": "KKTC öğrencilerine yönelik program."
+    },
+    {
+      "id": 29,
+      "name": "Biyoloji",
+      "desc": "Canlı organizmaların yapısı ve işleyişi."
+    },
+    {
+      "id": 30,
+      "name": "Fizik",
+      "desc": "Doğa olaylarını temel fiziğe dayalı inceler."
+    },
+    {
+      "id": 31,
+      "name": "İstatistik",
+      "desc": "Veri analizi ve olasılıksal modeller oluşturur."
+    },
+    {
+      "id": 32,
+      "name": "Matematik",
+      "desc": "Teorik ve uygulamalı matematik konuları."
+    },
+    {
+      "id": 33,
+      "name": "Kimya",
+      "desc": "Maddenin yapısı ve reaksiyonları."
+    }
+  ],
+  "Eğitim Fakültesi": [
+    {
+      "name": "Bilgisayar ve Öğretim Teknolojileri Öğretmenliği",
+      "desc": "Eğitim teknolojileri öğretimi.",
+      "id": 34
+    },
+    {
+      "name": "Fen Bilgisi Öğretmenliği",
+      "desc": "Fen eğitimi öğretmenliği.",
+      "id": 35
+    },
+    {
+      "name": "Okul Öncesi Öğretmenliği",
+      "desc": "Erken çocukluk dönemi eğitimi.",
+      "id": 1
+    },
+    {
+      "name": "Özel Eğitim Öğretmenliği",
+      "desc": "İhtiyacı olan bireylerin eğitimi.",
+      "id": 36
+    },
+    {
+      "name": "Rehberlik ve Psikolojik Danışmanlık",
+      "desc": "Okullarda rehberlik hizmetleri.",
+      "id": 37
+    },
+    {
+      "name": "Sınıf Öğretmenliği",
+      "desc": "İlkokul düzeyinde genel öğretmenlik.",
+      "id": 38
+    },
+    {
+      "name": "Sosyal Bilgiler Öğretmenliği",
+      "desc": "Tarih, coğrafya öğretimi.",
+      "id": 39
+    },
+    {
+      "name": "Türkçe Öğretmenliği",
+      "desc": "Türk dili eğitimi.",
+      "id": 40
+    }
+  ],
+  "Birgivi İlahiyat Fakültesi": [
+    {
+      "name": "İlahiyat",
+      "desc": "Temel din bilimleri alanında eğitim verir.",
+      "id": 41
+    },
+    {
+      "name": "İlahiyat (M.T.O.K.)",
+      "desc": "Arap dünyası öğrencileri için özel program.",
+      "id": 42
+    }
+  ],
+  "İletişim Fakültesi": [
+    {
+      "name": "Gazetecilik",
+      "desc": "Haber medya üretimi ve gazetecilik.",
+      "id": 43
+    },
+    {
+      "name": "Halkla İlişkiler ve Tanıtım",
+      "desc": "Kurumsal iletişim ve halkla ilişkiler.",
+      "id": 44
+    },
+    {
+      "name": "Radyo, Televizyon ve Sinema",
+      "desc": "Medya yapımı ve film eğitimi.",
+      "id": 45
+    },
+    {
+      "name": "Reklamcılık",
+      "desc": "Reklam planlama ve kampanya yönetimi.",
+      "id": 46
+    }
+  ],
+  "İktisadi ve İdari Bilimler Fakültesi": [
+    {
+      "name": "İktisat",
+      "desc": "Ekonomi teorisi ve piyasalar.",
+      "id": 47
+    },
+    {
+      "name": "İşletme",
+      "desc": "Şirket yönetimi ve organizasyon.",
+      "id": 48
+    },
+    {
+      "name": "Uluslararası İlişkiler",
+      "desc": "Küresel siyaset ve diplomasi.",
+      "id": 49
+    },
+    {
+      "name": "Maliye",
+      "desc": "Kamu finansmanı ve vergi politikaları.",
+      "id": 50
+    }
+  ],
+  "Sağlık Bilimleri Fakültesi": [
+    {
+      "name": "Beslenme ve Diyetetik",
+      "desc": "Sağlıklı beslenme danışmanlığı.",
+      "id": 51
+    },
+    {
+      "name": "Ebelik",
+      "desc": "Doğum ve kadın sağlığı.",
+      "id": 52
+    },
+    {
+      "name": "Fizyoterapi ve Rehabilitasyon",
+      "desc": "Hareket sistemi tedavisi.",
+      "id": 53
+    },
+    {
+      "name": "Hemşirelik",
+      "desc": "Hastaya bakım ve sağlık hizmeti.",
+      "id": 54
+    },
+    {
+      "name": "Odyoloji",
+      "desc": "İşitme ve denge bozukluklarının incelenmesi.",
+      "id": 55
+    }
+  ],
+  "Eczacılık Fakültesi": [
+    {
+      "name": "Eczacılık",
+      "desc": "İlaç geliştirme ve kullanımı.",
+      "id": 56
+    }
+  ],
+  "Diş Hekimliği Fakültesi": [
+    {
+      "name": "Diş Hekimliği",
+      "desc": "Diş sağlığı ve tedavi uygulamaları.",
+      "id": 57
+    }
+  ],
+  "Tıp Fakültesi": [
+    {
+      "name": "Tıp",
+      "desc": "Hekimlik mesleğine hazırlık eğitimi.",
+      "id": 58
+    }
+  ],
+  "Ziraat Fakültesi": [
+    {
+      "name": "Bahçe Bitkileri",
+      "desc": "Meyve ve sebze üretim teknolojisi.",
+      "id": 59
+    },
+    {
+      "name": "Bitki Koruma",
+      "desc": "Bitki hastalıkları ve zararlılarla mücadele.",
+      "id": 60
+    },
+    {
+      "name": "Peyzaj Mimarlığı",
+      "desc": "Dış mekan tasarımı ve planlaması.",
+      "id": 61
+    },
+    {
+      "name": "Süt Teknolojisi",
+      "desc": "Süt üretim ve ürün teknolojileri.",
+      "id": 62
+    },
+    {
+      "name": "Tarım Ekonomisi",
+      "desc": "Tarım işletmelerinin finans yönetimi.",
+      "id": 63
+    },
+    {
+      "name": "Tarım Makineleri ve Teknolojileri Mühendisliği",
+      "desc": "Tarım teknolojisi ve ekipmanları.",
+      "id": 64
+    },
+    {
+      "name": "Tarımsal Yapılar ve Sulama",
+      "desc": "Sulama sistemleri ve yapı teknolojileri.",
+      "id": 65
+    },
+    {
+      "name": "Tarla Bitkileri",
+      "desc": "Tahıl, baklagil üretimi.",
+      "id": 66
+    },
+    {
+      "name": "Toprak Bilimi ve Bitki Besleme",
+      "desc": "Toprak verimliliği ve gübreleme.",
+      "id": 67
+    },
+    {
+      "name": "Zootekni",
+      "desc": "Hayvan besleme ve yetiştiriciliği.",
+      "id": 68
+    }
+  ],
+  "Su Ürünleri Fakültesi": [
+    {
+      "name": "Su Ürünleri Mühendisliği",
+      "desc": "Balıkçılık ve su ürünleri teknolojisi.",
+      "id": 69
+    }
+  ],
+  "Güzel Sanatlar, Tasarım ve Mimarlık Fakültesi": [
+    {
+      "name": "Görsel İletişim Tasarımı",
+      "desc": "Grafik ve multimedya tasarım.",
+      "id": 70
+    },
+    {
+      "name": "Moda Tasarımı",
+      "desc": "Kıyafet ve moda yaratımı.",
+      "id": 71
+    }
+  ],
+  "Spor Bilimleri Fakültesi": [
+    {
+      "name": "Beden Eğitimi ve Spor Öğretimi",
+      "desc": "Spor öğretmenliği.",
+      "id": 72
+    },
+    {
+      "name": "Hareket ve Antrenman Bilimleri",
+      "desc": "Spor performans analizi.",
+      "id": 73
+    },
+    {
+      "name": "Spor Sağlık Bilimleri",
+      "desc": "Spor yaralanmaları ve sağlık.",
+      "id": 74
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+[
+    {
+        "id": 1,
+        "name": "Tire Kutsan MYO",
+        "description": "Üniversite-sanayi iş birliğiyle öğrencilere uygulamalı eğitim sunar.",
+        "longDescription": "Tire Kutsan Meslek Yüksekokulu, 1994 yılında kurulmuş olup sanayi-üniversite iş birliğine dayalı uygulamalı eğitim modeliyle öne çıkar. Lojistik, dış ticaret, muhasebe ve işletme gibi alanlarda eğitim verir. Özellikle bölgedeki sanayi kuruluşlarıyla yaptığı protokoller sayesinde öğrenciler hem teorik hem de pratik bilgi kazanır. Mezunlarının istihdam oranı oldukça yüksektir. Modern eğitim ortamları ve güçlü akademik kadrosuyla bölgenin kalkınmasına katkı sağlar.",
+        "image": "/myoImg/tireMYO.jpg",
+        "link": "/anasayfa/index1.html",
+        "buttonText": "Tire hakkında yaptığımız web sitesini inceleyin"
+    },
+    {
+        "id": 2,
+        "name": "Aliağa MYO",
+        "description": "Sanayi bölgesine yakınlığıyla dikkat çeken okul, uygulamalı eğitimleriyle öne çıkar.",
+        "image": "/myoImg/aliagaMYO.jpg",
+        "link": "https://aliaga.ege.edu.tr/"
+    },
+    {
+        "id": 3,
+        "name": "Atatürk Sağlık Hizmetleri MYO",
+        "description": "12 farklı alanda sağlık personeli yetiştiren okul, sosyal sorumluluk projeleriyle de öne çıkar.",
+        "image": "/myoImg/ataturkMYO.jpg",
+        "link": "https://egeatasaglik.ege.edu.tr/"
+    },
+    {
+        "id": 4,
+        "name": "Bayındır MYO",
+        "description": "Bölgesel kalkınmaya katkı sağlayan programlarıyla tanınır.",
+        "image": "/myoImg/bayindirMYO.jpg",
+        "link": "https://bayindirmyo.ege.edu.tr/"
+    },
+    {
+        "id": 5,
+        "name": "Bergama MYO",
+        "description": "31 yıllık geçmişiyle binlerce mezun veren okul, inovasyona ve teknolojiye önem verir.",
+        "image": "/myoImg/bergamaMYO.jpg",
+        "link": "https://bergamamyo.ege.edu.tr/"
+    },
+    {
+        "id": 6,
+        "name": "Ege MYO",
+        "description": "Sanayinin ihtiyaçlarına yönelik programlarıyla, mezunlarına geniş iş olanakları sunan köklü bir yüksekokuldur.",
+        "image": "/myoImg/egeMYO.jpg",
+        "link": "https://egemyo.ege.edu.tr/"
+    },
+    {
+        "id": 7,
+        "name": "Emel Akın MYO",
+        "description": "Tekstil ve moda alanında uluslararası etkinliklerle adından söz ettirir.",
+        "image": "/myoImg/emelakinMYO.jpg",
+        "link": "https://eamyo.ege.edu.tr/"
+    },
+    {
+        "id": 8,
+        "name": "Havacılık MYO",
+        "description": "Havacılık hizmetleri alanında kaliteli eğitim sunan birimdir.",
+        "image": "/myoImg//havacilikMYO.jpg",
+        "link": "https://havacilikmyo.ege.edu.tr/"
+    },
+    {
+        "id": 9,
+        "name": "Ödemiş MYO",
+        "description": "Tarım ve hayvancılık alanlarında uygulamalı eğitimler sunar.",
+        "image": "/myoImg/odemisMYO.jpg",
+        "link": "https://odemismyo.ege.edu.tr/"
+    },
+    {
+        "id": 10,
+        "name": "Siber Güvenlik MYO",
+        "description": "Dijital güvenlik alanında uzmanlaşmış programlarıyla, sektöre nitelikli elemanlar kazandırır.",
+        "image": "/myoImg/siberMYO.jpg",
+        "link": "https://sgmyo.ege.edu.tr/"
+    },
+    {
+        "id": 11,
+        "name": "Urla Denizcilik MYO",
+        "description": "Denizcilik alanında uzmanlaşmış programlarıyla sektöre nitelikli elemanlar yetiştirir.",
+        "image": "/myoImg/urlaMYO.jpg",
+        "link": "https://udmyo.ege.edu.tr/"
+    }
+]

@@ -1,6 +1,0 @@
-[
-    { "path": "/", "label": "Ana Sayfa" },
-    { "path": "/myo", "label": "MYO'lar" },
-    { "path": "/fakulte", "label": "Fakülteler" },
-    { "path": "/bolum", "label": "Bölümler" }
-]
