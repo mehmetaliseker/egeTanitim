@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import useSecondData from "../../hooks/useData";
+import { useSecondData } from '../../hooks/useSecondData';
 
 
 function SecondSection() {

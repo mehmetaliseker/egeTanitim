@@ -1,7 +1,8 @@
 import { useRef, useEffect, useState } from "react";
 import BaseSlider from "../custom/BaseSlick";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
-import useHeroData from "../../hooks/useData";
+import { useHeroData } from '../../hooks/useHeroData';
+
 
 function HeroSection() {
   const sliderRef = useRef(null);
